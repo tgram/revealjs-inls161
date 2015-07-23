@@ -52,7 +52,7 @@
 				</section>
 				
 
-<section id="four-score-and-seven-years-ago..." class="slide level1" data-audio-text="Four score and seven years ago">
+<section id="four-score-and-seven-years-ago..." class="slide level1">
 <h1>Four score and seven years ago...</h1>
 <aside class="notes">
 Four score and seven years ago
@@ -97,12 +97,11 @@ our fathers brought forth on this continent, a new nation,
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 				
 				// USE THESE SETTINGS FOR THE AUDIO AND AUTO-ADVANCE
-				autoSlide: 5000,
-				audioPrefix: 'audio/',        // audio files are stored in the "audio" folder
-				audioSuffix: '.ogg',	      // audio files have the ".ogg" ending
-				audioDefaultDuration: 5, // default duration if no audio is available
-				audioPlayerOpacity: 0.05,     // opacity value of audio player if unfocused
-				audioTextToSpeechURL: "http://tts-api.com/tts.mp3?q=",  // text is added to this URL
+//				autoSlide: 5000,
+//				audioPrefix: 'audio/',        // audio files are stored in the "audio" folder
+//				audioSuffix: '.ogg',	      // audio files have the ".ogg" ending
+//				audioDefaultDuration: 5, // default duration if no audio is available
+//				audioPlayerOpacity: 0.05,     // opacity value of audio player if unfocused
 
 				// Optional reveal.js plugins
 				dependencies: [
@@ -112,8 +111,16 @@ our fathers brought forth on this continent, a new nation,
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } },
+					{ src: 'plugin/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },	// COMMENT THIS LINE WHEN YOU ARE DONE RECORDING
+					{ src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } }
 				]
+				
+				// YOU CAN COMMENT THIS KEYBOARD SECTION WHEN YOU ARE DONE RECORDING YOUR AUDIO
+					keyboard: { 
+						82: function() { Recorder.toggleRecording(); },	// press 'r' to start/stop recording
+						90: function() { Recorder.downloadZip(); } 	// press 'z' to download zip containing audio files
+					}
+			});
 
 		</script>
 
