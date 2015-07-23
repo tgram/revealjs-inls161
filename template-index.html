@@ -98,13 +98,10 @@ $body$
 				history: true,
 				center: true,
 
-				// transition: 'slide', // none/fade/slide/convex/concave/zoom
-  				
-				// default/cube/page/concave/zoom/linear/fade/none
 $if(transition)$
-				transition: Reveal.getQueryHash().transition || '$transition$',
+				transition: '$transition$', // none/fade/slide/convex/concave/zoom
 $else$
-				transition: Reveal.getQueryHash().transition || 'slide',
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 $endif$
 				
 				// USE THESE SETTINGS FOR THE AUDIO AND AUTO-ADVANCE
