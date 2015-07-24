@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="gettysburg_address_data" version="1.3.0" audacityversion="2.0.6" sel0="120.8888888889" sel1="120.8888888889" vpos="0" h="0.0000000000" zoom="172.2656250000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="artist" value="Abraham Lincoln"/>
+		<tag name="title" value="Gettysburg Address"/>
+		<tag name="album" value="Gettysburg Address"/>
+	</tags>
+	<wavetrack name="gettysburg_address" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="5481216">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000411.au" len="273664" min="-0.630707" max="0.501007" rms="0.051995"/>
+				</waveblock>
+				<waveblock start="273664">
+					<simpleblockfile filename="e0000884.au" len="273664" min="-0.534027" max="0.396881" rms="0.039799"/>
+				</waveblock>
+				<waveblock start="547328">
+					<simpleblockfile filename="e000096f.au" len="524288" min="-0.821594" max="0.552521" rms="0.053639"/>
+				</waveblock>
+				<waveblock start="1071616">
+					<simpleblockfile filename="e00008a1.au" len="524288" min="-0.883606" max="0.584717" rms="0.050273"/>
+				</waveblock>
+				<waveblock start="1595904">
+					<simpleblockfile filename="e000014f.au" len="524288" min="-1.0" max="0.779297" rms="0.05584"/>
+				</waveblock>
+				<waveblock start="2120192">
+					<simpleblockfile filename="e0000c89.au" len="524288" min="-0.727936" max="0.652344" rms="0.056632"/>
+				</waveblock>
+				<waveblock start="2644480">
+					<simpleblockfile filename="e0000a35.au" len="524288" min="-0.875793" max="0.943298" rms="0.07276"/>
+				</waveblock>
+				<waveblock start="3168768">
+					<simpleblockfile filename="e0000a93.au" len="524288" min="-0.901489" max="0.658386" rms="0.053995"/>
+				</waveblock>
+				<waveblock start="3693056">
+					<simpleblockfile filename="e0000bb7.au" len="524288" min="-1.0" max="0.682739" rms="0.066726"/>
+				</waveblock>
+				<waveblock start="4217344">
+					<simpleblockfile filename="e0000347.au" len="524288" min="-0.759521" max="0.480164" rms="0.051079"/>
+				</waveblock>
+				<waveblock start="4741632">
+					<simpleblockfile filename="e00003df.au" len="369792" min="-0.703522" max="0.647278" rms="0.063266"/>
+				</waveblock>
+				<waveblock start="5111424">
+					<simpleblockfile filename="e00002de.au" len="369792" min="-1.0" max="0.977814" rms="0.067075"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="gettysburg_address" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="524288" sampleformat="131073" numsamples="5481216">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002b1.au" len="273664" min="-0.630707" max="0.501007" rms="0.051995"/>
+				</waveblock>
+				<waveblock start="273664">
+					<simpleblockfile filename="e0000d22.au" len="273664" min="-0.534027" max="0.396881" rms="0.039799"/>
+				</waveblock>
+				<waveblock start="547328">
+					<simpleblockfile filename="e0000cb3.au" len="524288" min="-0.821594" max="0.552521" rms="0.053639"/>
+				</waveblock>
+				<waveblock start="1071616">
+					<simpleblockfile filename="e0000c01.au" len="524288" min="-0.883606" max="0.584717" rms="0.050273"/>
+				</waveblock>
+				<waveblock start="1595904">
+					<simpleblockfile filename="e000059e.au" len="524288" min="-1.0" max="0.779297" rms="0.05584"/>
+				</waveblock>
+				<waveblock start="2120192">
+					<simpleblockfile filename="e0000aa9.au" len="524288" min="-0.727936" max="0.652344" rms="0.056632"/>
+				</waveblock>
+				<waveblock start="2644480">
+					<simpleblockfile filename="e0000afc.au" len="524288" min="-0.875793" max="0.943298" rms="0.07276"/>
+				</waveblock>
+				<waveblock start="3168768">
+					<simpleblockfile filename="e0000ae4.au" len="524288" min="-0.901489" max="0.658386" rms="0.053995"/>
+				</waveblock>
+				<waveblock start="3693056">
+					<simpleblockfile filename="e00000a2.au" len="524288" min="-1.0" max="0.682739" rms="0.066726"/>
+				</waveblock>
+				<waveblock start="4217344">
+					<simpleblockfile filename="e0000f3c.au" len="524288" min="-0.759521" max="0.480164" rms="0.051079"/>
+				</waveblock>
+				<waveblock start="4741632">
+					<simpleblockfile filename="e0000691.au" len="369792" min="-0.703522" max="0.647278" rms="0.063266"/>
+				</waveblock>
+				<waveblock start="5111424">
+					<simpleblockfile filename="e0000092.au" len="369792" min="-1.0" max="0.977814" rms="0.067075"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<labeltrack name="Label Track" numlabels="48" height="73" minimized="0" isSelected="0">
+		<label t="0.00000000" t1="0.00000000" title="four_score"/>
+		<label t="2.93151927" t1="2.93151927" title="our_fathers"/>
+		<label t="4.69043084" t1="4.69043084" title="on_this_continent"/>
+		<label t="5.85142857" t1="5.85142857" title="a_new_nation"/>
+		<label t="7.44199546" t1="7.44199546" title="conceived_in_liberty"/>
+		<label t="9.33442177" t1="9.33442177" title="and_dedicated"/>
+		<label t="12.03954649" t1="12.03954649" title="all_men"/>
+		<label t="13.57206349" t1="13.57206349" title="equal"/>
+		<label t="15.52834467" t1="15.52834467" title="now_we_are_engaged"/>
+		<label t="17.74585034" t1="17.74585034" title="civil_war"/>
+		<label t="20.15492063" t1="20.15492063" title="that_nation"/>
+		<label t="21.43782313" t1="21.43782313" title="any_nation"/>
+		<label t="24.83374150" t1="24.83374150" title="can_long_endure"/>
+		<label t="27.26603175" t1="27.26603175" title="we_are_met"/>
+		<label t="33.34385488" t1="33.34385488" title="portion_of_that_field"/>
+		<label t="35.35818594" t1="35.35818594" title="as_a_final_resting_place"/>
+		<label t="40.07183673" t1="40.07183673" title="that_nation_might_live "/>
+		<label t="42.79437642" t1="42.79437642" title="it_is_altogether_fitting_and_proper"/>
+		<label t="47.60671202" t1="47.60671202" title="but"/>
+		<label t="50.41632653" t1="50.41632653" title="we_cannot_d"/>
+		<label t="51.26385488" t1="51.26385488" title="dedicate"/>
+		<label t="52.33197279" t1="52.33197279" title="we_cannot_c"/>
+		<label t="53.10403628" t1="53.10403628" title="consecrate"/>
+		<label t="54.51464853" t1="54.51464853" title="we_cannot_h"/>
+		<label t="55.36798186" t1="55.36798186" title="hallow"/>
+		<label t="55.96009070" t1="55.96009070" title="this_ground"/>
+		<label t="57.89895692" t1="57.89895692" title="the_brave_men"/>
+		<label t="68.45823129" t1="68.45823129" title="the_world"/>
+		<label t="72.38820862" t1="72.38820862" title="say_here"/>
+		<label t="73.60725624" t1="73.60725624" title="but_it_can_never"/>
+		<label t="75.86539683" t1="75.86539683" title="did_here"/>
+		<label t="77.14249433" t1="77.14249433" title="it_is_for_us"/>
+		<label t="80.46875283" t1="80.46875283" title="dedicated_here"/>
+		<label t="81.12471655" t1="81.12471655" title="to_the_unfinished_work"/>
+		<label t="82.61079365" t1="82.61079365" title="which_they_who"/>
+		<label t="83.92852608" t1="83.92852608" title="here"/>
+		<label t="88.03845805" t1="88.03845805" title="it_is_rather_for_us"/>
+		<label t="93.57061224" t1="93.57061224" title="that_from_these_honored_dead"/>
+		<label t="98.06947846" t1="98.06947846" title="to_that_cause"/>
+		<label t="103.70612245" t1="103.70612245" title="that_we_here_highly_resolve"/>
+		<label t="106.55637188" t1="106.55637188" title="these_dead_shall_not_have_died_in_vain"/>
+		<label t="109.95229025" t1="109.95229025" title="that_this_nation"/>
+		<label t="113.29015873" t1="113.29015873" title="a_new_birth_of_freedom"/>
+		<label t="116.46548753" t1="116.46548753" title="government_of_the_people"/>
+		<label t="118.28825397" t1="118.28825397" title="by_the_people"/>
+		<label t="119.94267574" t1="119.94267574" title="for_the_people"/>
+		<label t="121.53324263" t1="121.53324263" title="shall_not_perish"/>
+		<label t="123.10639456" t1="123.10639456" title="from_the_earth"/>
+	</labeltrack>
+</project>
