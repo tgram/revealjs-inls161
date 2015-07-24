@@ -9,7 +9,6 @@
 
 		<title>Address Delivered at the Dedication of the Cemetery at Gettysburg</title>
 		
-		
 		<meta name="author" content="Abraham Lincoln">
 		
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -43,39 +42,79 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				
+				<!-- Slides	will follow this basic format
+				<section id="" data-audio-src="audio/" data-background="">
+					<aside class="notes">
+						<p>
+							
+						</p>
+					</aside>
+				</section>
+				-->
+
 				<section>
-					<h1>Address Delivered at the Dedication of the Cemetery at Gettysburg</h1>
+					<h2>Address Delivered at the Dedication of the Cemetery at Gettysburg</h2>
 					<h3>Abraham Lincoln</h3>
 					<p>
-						<h4>November 19, 1863</h4>
+						November 19, 1863
 					</p>
 				</section>
 				
-
-<section id="four-score-and-seven-years-ago..." class="slide level1" data-audio-text="Four score and seven years ago">
-<h1>Four score and seven years ago...</h1>
-<aside class="notes">
-Four score and seven years ago
-</aside>
-</section>
-<section id="a-new-nation" class="slide level1">
-<h1>a new nation</h1>
-<aside class="notes">
-our fathers brought forth on this continent, a new nation,
-</aside>
-</section>
-<section id="liberty" class="slide level1">
-<h1>liberty</h1>
-<aside class="notes">
-<p>conceived in Liberty, and dedicated to the proposition that all men are created &lt;&gt;</p>
-</section>
-<section id="section" class="slide level1">
-<h1>=</h1>
-<aside class="notes">
-<p>equal.</p>
-<p>Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.</p>
-<p>But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth. &lt;&gt;</p>
-</section>
+				<section id="01" class="slide level1"  data-audio-src="audio/01-four_score.ogg">
+					<h1>(87)</h1>
+					<aside class="notes">
+						Four score and seven years ago
+					</aside>
+				</section>
+			
+				<section id="02" class="slide level1" data-background="https://upload.wikimedia.org/wikipedia/commons/1/15/Declaration_independence.jpg" data-audio-src="audio/02-our_fathers.ogg">
+					
+					<aside class="notes">
+						<p>
+							our fathers brought forth 
+						</p>
+					</aside>
+				</section>
+				
+				<section id="" data-audio-src="audio/03-on_this_continent.ogg" data-background="https://upload.wikimedia.org/wikipedia/commons/2/29/North_America_satellite_orthographic.jpg">
+					<aside class="notes">
+						<p>
+							on this continent,
+						</p>
+					</aside>
+				</section>
+				
+				<section id="" data-audio-src="audio/04-a_new_nation.ogg" data-background="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/US_flag_13_stars_%E2%80%93_Betsy_Ross.svg/1000px-US_flag_13_stars_%E2%80%93_Betsy_Ross.svg.png">
+					<aside class="notes">
+						<p>
+							a new nation,
+						</p>
+					</aside>
+				</section>
+				
+				<section id="" data-audio-src="audio/" data-background="">
+					<aside class="notes">
+						<p>
+							
+						</p>
+					</aside>
+				</section>
+			
+				<section id="liberty" class="slide level1">
+					<h1>liberty</h1>
+					<aside class="notes">
+						<p>conceived in Liberty, and dedicated to the proposition that all men are created &lt;&gt;</p>
+					</aside>
+				</section>
+					
+				<section id="section" class="slide level1">
+					<h1>=</h1>
+					<aside class="notes">
+						<p>equal.</p>s
+						<p>Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether sfitting and proper that we should do this.</p>
+						<p>But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. Its is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.</p>
+					</aside>
+				</section>
 
 			</div>
 
@@ -112,16 +151,8 @@ our fathers brought forth on this continent, a new nation,
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/audio-slideshow/slideshow-recorder.js', condition: function( ) { return !!document.body.classList; } },	// COMMENT THIS LINE WHEN YOU ARE DONE RECORDING
 					{ src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } }
 				]
-				
-				// YOU CAN COMMENT THIS KEYBOARD SECTION WHEN YOU ARE DONE RECORDING YOUR AUDIO
-					keyboard: { 
-						82: function() { Recorder.toggleRecording(); },	// press 'r' to start/stop recording
-						90: function() { Recorder.downloadZip(); } 	// press 'z' to download zip containing audio files
-					}
-			});
 
 		</script>
 
