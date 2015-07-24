@@ -60,7 +60,7 @@
 					</p>
 				</section>
 				
-				<section id="01" class="slide level1"  data-audio-src="01-four_score.ogg">
+				<section id="01" class="slide level1" data-audio-src="01-four_score.ogg">
 					<h1>(87)</h1>
 					<aside class="notes">
 						Four score and seven years ago
@@ -131,12 +131,12 @@
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 				
 				// USE THESE SETTINGS FOR THE AUDIO AND AUTO-ADVANCE
-				// autoSlide: 5000,
-				audioPrefix: 'audio/',        // audio files are stored in the "audio" folder
-				audioSuffix: '.ogg',	      // audio files have the ".ogg" ending
-				audioDefaultDuration: 5, // default duration if no audio is available
-				audioPlayerOpacity: 0.05,     // opacity value of audio player if unfocused
-				audioTextToSpeechURL: "http://tts-api.com/tts.mp3?q=",  // text is added to this URL
+				autoSlide: 5000,
+//				audioPrefix: 'audio/',        // audio files are stored in the "audio" folder
+//				audioSuffix: '.ogg',	      // audio files have the ".ogg" ending
+//				audioDefaultDuration: 5, // default duration if no audio is available
+//				audioPlayerOpacity: 0.05,     // opacity value of audio player if unfocused
+//				audioTextToSpeechURL: "http://tts-api.com/tts.mp3?q=",  // text is added to this URL
 				
 				// Optional reveal.js plugins
 				dependencies: [
@@ -146,7 +146,7 @@
 					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } }
+//					{ src: 'plugin/audio-slideshow/audio-slideshow.js', condition: function( ) { return !!document.body.classList; } }
 				]
 
 		</script>
